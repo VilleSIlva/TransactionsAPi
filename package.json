@@ -1,0 +1,33 @@
+{
+  "name": "transactions-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VilleSIlva/TransactionsAPi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VilleSIlva/TransactionsAPi/issues"
+  },
+  "homepage": "https://github.com/VilleSIlva/TransactionsAPi#readme",
+  "dependencies": {
+    "fastify": "^5.5.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "tsx": "^4.20.5",
+    "zod": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "dotenv": "^17.2.1",
+    "typescript": "^5.9.2"
+  }
+}
