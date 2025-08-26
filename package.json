@@ -6,8 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"tsx watch src/server.ts",
-    "knex":"node --import tsx ./node_modules/knex/bin/cli.js"
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --import tsx ./node_modules/knex/bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/VilleSIlva/TransactionsAPi#readme",
   "dependencies": {
     "fastify": "^5.5.0",
+    "fastify-cookie": "^5.6.1",
     "knex": "^3.1.0",
     "sqlite3": "^5.1.7",
     "tsx": "^4.20.5",
